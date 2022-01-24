@@ -1,0 +1,29 @@
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: darkgrey;
+
+}
+.wrapper{
+  display: flex;
+}
+.div1{
+  
+  margin: 2rem;
+  height: 20rem;
+  width: 10rem;
+  background-color: #fff;
+  padding: 2rem;
+}
+.div2{
+  margin: 2rem;
+  height: 20rem;
+  width: 30rem;
+  background-color: #fff;
+  padding: 2rem;
+  flex: 1 1 100%;
+}
